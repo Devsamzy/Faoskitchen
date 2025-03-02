@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito',sans-serif;
+}
+.ff-secondary{
+    font-family: 'pacifico',cursive !important;
+}
+@font-face {
+  font-family: sofia;
+  src: url(./assets/SofiaSans-Regular.ttf);
+}
+:root{
+  --primary:#FEA116;
+  --light: #F1F8FF;
+  --dark: #0F172B;
+  --success: #333;
+}

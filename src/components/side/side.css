@@ -1,0 +1,14 @@
+.side{
+    width: 50vw;
+    background-color: brown;
+    color: red;
+}
+.side h1{
+    font-size: 100px;
+}
+@media (min-width:420px) {
+    /* .login{width: 100vw;} */
+    .side{
+        width: 0;
+    }
+}
