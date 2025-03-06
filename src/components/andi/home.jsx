@@ -3,11 +3,8 @@ import {FaAlignJustify, FaAngrycreative, FaArrowRight, FaCartPlus, FaEnvelope, F
 import './home.css';
 import './bod.css';
 import {useNavigate } from 'react-router-dom';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../../../node_modules/lib/owlcarousel/assets/owl.carousel.min.css'
-import '../../../node_modules/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css'
-import '../../../node_modules/lib/animate/animate.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import car2 from '../../assets/car1.png'
 import car1 from '../../assets/car2.png'
 import car3 from '../../assets/car3.png'
