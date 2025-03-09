@@ -51,7 +51,7 @@ const Home = () => {
           <a className="nav-link" href="#about" aria-current="page">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" aria-current="page">Services</a>
+          <a className="nav-link" href="#team" aria-current="page">Our Team</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#" aria-current="page">Menu</a>
