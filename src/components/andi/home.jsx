@@ -30,7 +30,7 @@ const Home = () => {
 
       <div className='container-xxl position-relative p-0'>
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-4 py-lg-0 ">
-    <a className="navbar-brand p-0 px-3" href="#"><h1 className='text-warning m-0 brandname'><img src={logo} alt="" className='logo me-3'/>Faoskitchen</h1></a>
+    <a className="navbar-brand p-0 pe-3" href="#"><h1 className='text-warning m-0 brandname'><img src={logo} alt="" className='logo me-3'/>Faoskitchen</h1></a>
     <button
       className="navbar-toggler d-lg-none"
       type="button"
