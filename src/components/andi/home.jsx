@@ -48,7 +48,7 @@ const Home = () => {
           <a className="nav-link active" href="#" aria-current="page">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" aria-current="page">About</a>
+          <a className="nav-link" href="#about" aria-current="page">About</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#" aria-current="page">Services</a>
@@ -188,7 +188,7 @@ const Home = () => {
 </div>
 
 
-<div className="col-lg-6">
+<div className="col-lg-6" id="about">
   <h5 className='section-title ff-secondary text-start text-warning fw-normal' id='about'>About Us</h5>
   <h1 className='mb-4 d-flex  align-items-center'>Welcome To Faoskitchen</h1>
   <p className='mb-4'>
