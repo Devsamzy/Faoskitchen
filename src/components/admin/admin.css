@@ -1,0 +1,58 @@
+.admin{
+    font-family: primaryfont !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    position: relative;
+}
+.admin h1{
+    font-family: primaryfont !important;
+}
+.admin .container{
+    position: relative;
+}
+.admin nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    
+}
+.admin nav h1{
+    font-family: primaryfont !important;
+    font-weight: 600 !important;
+
+}
+.admin .sidenav{
+    color: #fff;
+    height: 100vh;
+    position: sticky;
+    /* display: none; */
+}
+.admin .sidenav li{
+    list-style: none;
+    padding: 10px;
+    /* border: 1px var(--primary) solid; */
+    margin: 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.admin .activebg{
+    border: 1px solid #fff !important;
+    color: #fff;
+    background: var(--primary);
+    background: #ff6600d7;
+}
+.admin .bg-menu{
+    background-color: #e0e0e0 !important;
+}
+
+@media (min-width:420px) {
+    /* .login{width: 100vw;} */
+    .admin nav{
+        /* width: 0; */
+        /* background: blue; */
+    }
+    .admin .menubn{
+        display: none;
+    }
+}

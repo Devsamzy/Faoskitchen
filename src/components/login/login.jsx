@@ -5,7 +5,7 @@ import { db } from '../../firebase';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { NavLink, useNavigate } from 'react-router-dom';
 // import { getDatabase, query } from 'firebase/database';
-// import './login.css';
+import './login.css';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
 import Side from "../side/side";
 
@@ -74,28 +74,25 @@ const Login = () => {
       setError(err.message);
     }
   };
-  const items=[
-    "heo","sweep"
-  ];
   return (
     <>
-      <main>
-        <section>
-          {/* <Side></Side> */}
-          <div className="login container p-0 m-0">
-            <header className=' d-flex flex-column p-5 bg-dark text-white justify-content-center h-10 align-items-center col-12 g-10'>
-              <h1 className='pt-5'>Faoskitchen</h1>
-              <p className='pb-3'>Enjoy he rue favours of african</p>
+      <main> 
+        <section className='d-flex justify-content-center align-items-center m-0 p-0' style={{height:'100vh'}}>
+          <div className="login container p-0 m-0 col-12 col-lg-4 rounded-lg rounded-4 py-lg-3 bg-red">
+            <div className='header p-0 m-0'>
+            <header style={{height:'40vh'}} className=' d-flex flex-column p-5 bg-dark text-white justify-content-center align-items-center m-0'>
+              <h1 className='pt-4 text-sam big-head '>Faoskitchen</h1>
+              <p className='pb-4'>Enjoy the true flavours of Africa</p>
             </header>
-
-            <div className="bottom container">
-              <form onSubmit={onLogin} className='d-flex flex-column gap-3 p-5 text-center'>
-                <h1>Login to go-do</h1>
+            </div>
+            <div className="bottom container mb-0 mt-5 mt-lg-0">
+              <form onSubmit={onLogin} className='d-flex flex-column gap-3 p-3 px-5  px-lg-3 text-center mb-0 pb-0 py-lg-4 pt-lg-5'>
+                <h1 className='fs-2 py-lg-3 head'>Login To Faoskitchen</h1>
                 <input
                   type="text"
                   id="username"
                   name="username"
-                  className=' form-con border border-3 rounded-3 p-2'
+                  className=' border rounded-5 p-2 bg-light mb-3'
                   onChange={(e) => setUsername(e.target.value)}
                   required
                   placeholder="Username"
@@ -104,15 +101,16 @@ const Login = () => {
                   id="password"
                   name="password"
                   type="password"
+                  className=' border rounded-5 p-2 bg-light mb-3'
                   onChange={(e) => setPassword(e.target.value)}
                   required
                   placeholder="Password"
                 />
-                <button type="submit">Login</button>
+                  {error && <p style={{ color: 'red' }}>{error}</p>}
+                <button type="submit" className='btn-grad border-0 p-2 fs-5 rounded-1'>Login</button>
 
-                {error && <p style={{ color: 'red' }}>{error}</p>}
 
-                <p className="text-sm text-dark text-center">
+                <p className="text-sm text-dark text-center mb-2 mb-lg-3">
                   No account yet?{' '}
                   <NavLink to="/signin">
                     Sign up

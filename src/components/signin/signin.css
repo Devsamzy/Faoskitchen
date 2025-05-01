@@ -1,96 +1,31 @@
-/* main{
-    width: 100vw;
-    height: 100vh;
-    padding: 0;
-} */
-.signin{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-}
+
 *{
-    /* border: 1px red solid; */
-}
-.signin header{
-background: #00155c;
-    padding: 10px;
-    width: 100%;
-    /* justify-content: center; */
-    /* text-align: center; */
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0px 0px 20px 0px;
-}
-.signin header h1{
-    font-family: sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-.signin header p{
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family: sofia;
-    font-weight: 500;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-/* .login .bottom{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%; 
-
-} */
-.signin .bottom h1{
-    text-transform: capitalize;
-    font-family: sofia;
-    font-weight: 800;
-    font-size: 30px;
-    text-align: center;
-    margin: 30px 0px;
-}
-.signin .bottom input{
-    width: 300px;
-    height: 40px;
-    padding: 10px;
-    display: flex;
-    font-size: 15px;
-    font-family: sans-serif;
-    margin: auto;
-    border: none;
-    border-radius: 100px;
-    margin-bottom: 30px;
-
-    box-shadow: 2px 2px 5px 1px rgba(90, 90, 90, 0.425);
-}
-.signin .bottom button{
-    background: #00155c;
-    width: 300px;
-    /* height: 40px; */
-    color: #fff;
-    font-family: sans-serif;
-    padding: 10px 0px;
-    border: none;
-    border-radius: 10px;
-    font-weight: 900;
-    margin: auto;
-    display: block;
-    font-size: 20px;
-}
-.signin .bottom p{
-    font-family: sofia;
-    text-transform: capitalize;
-    text-align: center;
-    padding: 10px;
-    font-size: 15px;
-    /* color: blue; */
-    display: block;
-}
+    /* border: red .5px solid; */
+  }
+     .signin{
+     height: 100%; 
+    }
+    
+  /*
+    .login .container .btn-sam, .container-xxl .btn-sam{
+      background: var(--sam)  !important;
+    }
+    .login .container .bg-sam, .container-xxl .bg-sam{
+      background: var(--sam)  !important;
+    } */
+  @media (min-width:500px) {
+      .signin{
+          /* border: 1px solid #333; */
+          box-shadow: 0px 3px 45px rgba(0, 0, 0, 0.5);
+          /* border-radius: 15px; */
+          overflow: hidden;
+          height: fit-content;
+      }
+      .header{
+          display: none !important;
+      }
+      .signin h1{
+        
+      }
+  }
+  

@@ -1,0 +1,53 @@
+.cartbn{
+    color: #ff0000 !important;
+
+}
+*{
+    /* transition: -0.5s; */
+    /* border: 1px solid red ; */
+}
+.navpage{
+    background: #cccccc;
+}
+.navpage li{
+    background: #cccccc;
+    /* transition-delay: 1s; */
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.produc-card{
+    /* box-shadow: 0px 3px 3px #333; */
+    /* border-radius: 10px; */
+}    
+.producs{
+    /* gap: 10px */
+}    
+
+.home .products{
+ 
+    
+}
+.card{
+    overflow: hidden;
+    position: relative;
+}
+.card .card-title{
+    font-family: sofia !important;
+    font-weight: 900;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+    /* background: #333; */
+    
+}
+.card .card-text{
+    color: #222;
+}
+.card .like-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    /* outline: black 2px solid; */
+    /* background: blue; */
+}

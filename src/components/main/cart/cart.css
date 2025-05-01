@@ -1,0 +1,11 @@
+.cart h1.text-grad{
+    letter-spacing: 1px;
+    color: #fff !important;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+.cart .head{
+    font-family: goham !important;
+    font-weight: 900;
+    font-size: 40px;
+}

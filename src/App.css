@@ -1,23 +1,101 @@
-*{
-  padding: 0px;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Heebo', sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Nunito',sans-serif;
-}
-.ff-secondary{
-    font-family: 'pacifico',cursive !important;
-}
 @font-face {
   font-family: sofia;
   src: url(./assets/SofiaSans-Regular.ttf);
 }
+@font-face {
+  font-family: codec;
+  src: url(./assets/CodecPro-Regular.ttf);
+}
+@font-face {
+  font-family: goham;
+  src: url(./assets/GothamBold.ttf);
+}
+@font-face {
+  font-family: salad;
+  src: url(./assets/Salad.otf);
+}
+@font-face {
+  font-family: primaryfont;
+  src: url(./assets/OpenSans.ttf);
+}
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: primaryfont !important;
+  /* border: 1px solid red; */
+  transition: .3s;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito',sans-serif !important;
+}
+.ff-secondary{
+    font-family: 'pacifico',cursive !important;
+}
 :root{
-  --primary:#FEA116;
+  /* --sam:#16fe50; */
+  --sam:#fec016;
+  --sam3:#fe9216;
+  --sam1:#fe7316;
   --light: #F1F8FF;
   --dark: #0F172B;
   --success: #333;
+}
+input{
+  font-family: codec !important; 
+}
+.head{
+  font-family: codec !important;
+  font-weight: 600;
+}
+.bg-background{
+  background: #eee;
+}
+.container .text-sam, .container-xxl .text-sam{
+  color: var(--sam3)  !important;
+}
+.container .btn-sam, .container-xxl .btn-sam{
+  background: var(--sam3)  !important;
+}
+.container .bg-sam, .container-xxl .bg-sam{
+  background: var(--sam)  !important;
+  color: white;
+}
+
+/* appy linearGradient o eemens */
+.container .text-grad, .container-xxl .text-grad{
+  color: #fff  !important;
+  background-image: linear-gradient(to right, var(--sam),var(--sam1));
+
+}
+.container .btn-grad, .container-xxl .btn-grad{
+  background: none;
+  background-image: linear-gradient(270deg, var(--sam),var(--sam1));
+  color: #fff;
+  /* background-image: linear-gradient(to right, #333,#fff); */
+}
+.container .bg-grad, .container-xxl .bg-grad{
+  background: none;
+  /* background-image: linear-gradient( #333,#fff); */
+  background-image: linear-gradient(270deg, var(--sam),var(--sam1));
+}
+
+
+.container .btn-sam:hover, .container-xxl .btn-sam:hover{
+  color: var(--light)  !important;
+}
+.container .bg-sam:hover, .container-xxl .bg-sam:hover{
+  color: var(--light)  !important;
+}
+
+/* appy linearGradient hover o eemens */
+.container .btn-grad:hover, .container-xxl .btn-grad:hover{
+  
+  color: var(--light)  !important;
+  /* background-image: linear-gradient(to right, #333,#fff); */
+}
+.container .bg-grad:hover, .container-xxl .bg-grad:hover{
+  color: var(--light)  !important;
+  /* background-image: linear-gradient( #333,#fff); */
+  background-image: linear-gradient(to right, var(--sam),var(--sam1));
 }

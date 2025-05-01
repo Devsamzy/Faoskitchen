@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import {FaAlignJustify, FaAngrycreative, FaArrowRight, FaCartPlus, FaEnvelope, FaFacebookF, FaInstagram, FaMapMarker, FaMapMarkerAlt, FaPhoneAlt, FaPlusCircle, FaRegUserCircle, FaStar, FaTwitter, FaUser, FaUserTie, FaUtensils, FaYoutube} from 'react-icons/fa'
+import {FaAlignJustify, FaAngrycreative, FaArrowRight, FaCartPlus, FaEnvelope, FaFacebookF, FaInstagram, FaMapMarker, FaMapMarkerAlt, FaPhoneAlt, FaPlusCircle, FaRegUserCircle, FaStar, FaTwitter, FaUser, FaUserTie, FaUtensils, FaYoutube, FaRegPlayCircle} from 'react-icons/fa'
 import './home.css';
 import './bod.css';
 import {useNavigate } from 'react-router-dom';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../../../node_modules/lib/owlcarousel/assets/owl.carousel.min.css'
-import '../../../node_modules/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css'
-import '../../../node_modules/lib/animate/animate.min.css'
+// import '../../../node_modules/lib/owlcarousel/assets/owl.carousel.min.css'
+// import '../../../node_modules/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css'
+// import '../../../node_modules/lib/animate/animate.min.css'
 import car2 from '../../assets/car1.png'
 import car1 from '../../assets/car2.png'
 import car3 from '../../assets/car3.png'
@@ -79,6 +79,9 @@ const Home = () => {
 
       <div className='col-lg-6 text-center text-lg-end overflow-hidden'>
         <img src={hero2} className='img-fluid w-75 hero-image' alt="" />
+      </div>
+      <div className="play-btn d-flex justify-content-end me-3">
+        <FaRegPlayCircle color='white' size="70px"></FaRegPlayCircle>
       </div>
     </div>
   </div>
@@ -232,11 +235,11 @@ const Home = () => {
   <p className="text-start"> We invite you to explore our product, savour our flavors and experience the warmth of African culture. Whether you are here to shop, plan an event, or simply learn more about Africa, we are thrilled to have you as a part of our story. Thank you for choosing faoskitchen - <strong> where Africa comes to you.</strong></p>
   </div>
   <div className="team-card text-center rounded overflow-hidden pb-5 col-10 col-lg-4">
-    <div class="rounded-circle overflow-hidden m-5">
-      <img class="img-fluid bg-white userimg" src={logo} alt="Title" />
+    <div className="rounded-circle overflow-hidden m-5">
+      <img className="img-fluid bg-white userimg" src={logo} alt="Title" />
       </div>
-        <h4 class="mb-0">Fatimah Oredolapo</h4>
-        <p class="card-text">CEO-chef</p>
+        <h4 className="mb-0">Fatimah Oredolapo</h4>
+        <p className="card-text">CEO-chef</p>
 
     
   </div>

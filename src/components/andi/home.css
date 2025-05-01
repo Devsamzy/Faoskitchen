@@ -6,23 +6,8 @@
 *{
     /* border: 1px solid red; */
 }
-.container .text-warning, .container-xxl .text-warning{
-    color: var(--primary)  !important;
-}
-.container .btn-warning, .container-xxl .btn-warning{
-    background: var(--primary)  !important;
-}
-
 :root{
     --brandColor: #FFF9E7;
-}
-@font-face {
-    font-family: codec;
-    src: url(../../assets/CodecPro-Regular.ttf);
-}
-@font-face {
-    font-family: sofia;
-    src: url(../../assets/SofiaSans-Regular.ttf);
 }
 .hero-text{
     font-family: 'Heebo',sans-serif;
@@ -38,8 +23,8 @@
 p{
     font-family: sofia;
 }
-h1{
-    font-family: codec !important;
+.big-head{
+    font-family: sa !important;
     font-weight: 600 !important;
     letter-spacing: 1px;
 }
@@ -116,7 +101,7 @@ textarea.form-control{
     transform: scale(1.5);
 }
 .team-card p,.team-card h4{
-    font-family: codec;
+    font-family: sa;
     text-transform: capitalize;
 }
 .testi{
