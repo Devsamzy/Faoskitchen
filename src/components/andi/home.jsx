@@ -3,11 +3,8 @@ import {FaAlignJustify, FaAngrycreative, FaArrowRight, FaCartPlus, FaEnvelope, F
 import './home.css';
 import './bod.css';
 import {useNavigate } from 'react-router-dom';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-// import '../../../node_modules/lib/owlcarousel/assets/owl.carousel.min.css'
-// import '../../../node_modules/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css'
-// import '../../../node_modules/lib/animate/animate.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import car2 from '../../assets/car1.png'
 import car1 from '../../assets/car2.png'
 import car3 from '../../assets/car3.png'
@@ -32,8 +29,8 @@ const Home = () => {
       </div>
 
       <div className='container-xxl position-relative p-0'>
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-4 py-lg-0 ">
-    <a className="navbar-brand p-0 px-3" href="#"><h1 className='text-warning m-0 brandname'><img src={logo} alt="" className='logo me-3'/>Faoskitchen</h1></a>
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3 px-lg-5 py-4 py-lg-0 ">
+    <a className="navbar-brand p-0" href="#"><h1 className='text-warning m-0 brandname'><img src={logo} alt="" className='logo me-3'/>Faoskitchen</h1></a>
     <button
       className="navbar-toggler d-lg-none"
       type="button"
@@ -51,10 +48,10 @@ const Home = () => {
           <a className="nav-link active" href="#" aria-current="page">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" aria-current="page">About</a>
+          <a className="nav-link" href="#about" aria-current="page">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" aria-current="page">Services</a>
+          <a className="nav-link" href="#team" aria-current="page">Our Team</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#" aria-current="page">Menu</a>
@@ -194,7 +191,7 @@ const Home = () => {
 </div>
 
 
-<div className="col-lg-6">
+<div className="col-lg-6" id="about">
   <h5 className='section-title ff-secondary text-start text-warning fw-normal' id='about'>About Us</h5>
   <h1 className='mb-4 d-flex  align-items-center'>Welcome To Faoskitchen</h1>
   <p className='mb-4'>
