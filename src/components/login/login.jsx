@@ -86,8 +86,8 @@ const Login = () => {
             </header>
             </div>
             <div className="bottom container mb-0 mt-5 mt-lg-0">
-              <form onSubmit={onLogin} className='d-flex flex-column gap-3 p-3 px-5  px-lg-3 text-center mb-0 pb-0 py-lg-4 pt-lg-5'>
-                <h1 className='fs-2 py-lg-3 head'>Login To Faoskitchen</h1>
+              <form onSubmit={onLogin} className='d-flex flex-column gap-3 p-3 px-5  px-lg-3 text-center mb-0 pb-0 py-lg-4 pt-sm-0 pt-lg-5'>
+                <h1 className='fs-2 py-lg-2 head'>Login To Faoskitchen</h1>
                 <input
                   type="text"
                   id="username"

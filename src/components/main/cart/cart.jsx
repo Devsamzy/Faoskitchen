@@ -127,30 +127,7 @@ const Cart = () => {
             </div>
         </div>
         </div>
-        <div className="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div className="container pt-5 pb-3">
-                <div className="row g-5">
-                    <div className="col-lg-6 col-md-6">
-                        <h4 className="ff-secondary text-start text-warning fw-normal mb-4">My Account</h4>
-                        <a  className="btn btn-link" href="#">Home</a>
-                        <a  className="btn btn-link" href="#">Carts</a>
-                        <a  className="btn btn-link" href="#">Settings</a>
-                        <a  className="btn btn-link" href="#">Cart Out</a>
-                        <a  className="btn btn-link" href="#">Contact Us</a>
-                        <a  className="btn btn-link" href="#">Logout</a>
-                    </div>
-                    <div className="col-lg-6 col-md-6">
-                        <h4 className="ff-secondary text-start text-sam fw-normal mb-4">Send Us a Feedback</h4>
-                        <div className="position-relative mx-auto">
-                            <textarea className="form-control border-primary w-100 py-3 ps-4 pe-5" id="" placeholder='Send us a Feedback'></textarea>
-                            <button type="button" className="btn btn-sam py-2 w-100 bottom-0 end-0 mt-2 sendbn">Send</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <div className='text-align-center p-3 m-0 justify-content-center d-flex footer-copy'>faoskitchen&copy;2025, All Rights Reserved</div>
 
-        </div>
     </div>
     </>
   )

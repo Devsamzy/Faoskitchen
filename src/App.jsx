@@ -13,7 +13,7 @@ import Admin from './components/admin/admin.jsx'
 function App() {
   return (
     <Router>
-      <div>
+      <div className='mainpage'>
         <section>
           <Routes>
             <Route path='/login' element={<Login/>}/>

@@ -6,7 +6,7 @@ import car2 from '../../../assets/car1.png'
 import car1 from '../../../assets/car2.png'
 import car3 from '../../../assets/car3.png'
 import '../../../../node_modules/bootstrap/dist/css/bootstrap.css'
-import { FaCartPlus, FaRegHeart, FaHeart, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaRegSmile } from 'react-icons/fa';
+import { FaCartPlus, FaRegHeart, FaPlus, FaHeart, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaRegSmile } from 'react-icons/fa';
 import { FaPencil, FaTrashCan } from 'react-icons/fa6'
 function Products(){
   const [products,setProducts]=useState([
@@ -57,6 +57,9 @@ function Products(){
     return(
         <>
             <div className="row g-3 products p-3" >
+              <div className='px-3'>
+              <FaPlus className='bg-black text-light py-3 rounded w-100' size={60}></FaPlus>
+              </div>
                  {products.map((product,index)=>(
                 <div className=' col-6 col-md-4 col-lg-3  p-2'  key={index}>
                 <div className="card bg-white color-dark text-dark border-0 rounded-4 p-0 h-100">
